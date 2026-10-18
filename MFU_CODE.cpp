@@ -15,9 +15,7 @@ struct Frame {
     int loadTime = 0;  // step number when the page was loaded (for FIFO tie-breaking)
 };
 
-// =====================================================
 //  HELPER FUNCTIONS
-// =====================================================
 
 // Greatest common divisor, used to reduce the hit ratio to lowest terms
 int gcd(int a, int b) {
@@ -45,9 +43,7 @@ void waitForEnter() {
     getline(cin, dummy);
 }
 
-// =====================================================
 //  INPUT FUNCTIONS
-// =====================================================
 
 // INPUT 1: number of frames (returns the number entered)
 int readFrames() {
